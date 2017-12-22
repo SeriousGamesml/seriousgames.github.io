@@ -1,3 +1,0 @@
-# seriousgames.github.io
-
-hello
