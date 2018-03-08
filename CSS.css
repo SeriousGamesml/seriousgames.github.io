@@ -9,15 +9,15 @@ body {
 }
 
 .TopBar {
-    font-size: 100;
     position: fixed;
     width: 100%;
     height: 3%;
     top: -5px;
     padding: 60px 0px 60px 0px;
     background-color: white;
+    box-shadow: 20px 20px 150px black;
     color: #ffbf00;
-    z-index: 11000000; 
+    z-index: 10; 
     transition: 0.6s;
 }
 
@@ -41,7 +41,6 @@ body {
 
 .ml {
     color: black;
-    background-color: white;
     transition: 0.2s;
 }
 
@@ -52,29 +51,28 @@ body {
 
 .Games {
     color: black;
-    background-color: white;
-    padding-left: 20px;
-    
+    padding-left: 40px;
 }
 
 .Games:hover {
     color: #ffbf00;
     background-color: black;
     cursor: pointer;
-    padding: 10px 40px 10px 40px
+    padding: 10px 40px 10px 40px;
+    box-shadow: 10px 10px 80px black;
 }
 
 .MODS {
     display: inline;
     color: black;
-    background-color: white;
 }
 
 .MODS:hover {
     color: #ffbf00;
     background-color: black;
     cursor: pointer;
-    padding: 10px 40px 10px 40px
+    padding: 10px 40px 10px 40px;
+    box-shadow: 10px 10px 80px black;
 }
 
 .About {
@@ -86,25 +84,24 @@ body {
     color: #ffbf00;
     background-color: black;
     cursor: pointer;
-    padding: 10px 40px 10px 40px
+    padding: 10px 60px 10px 60px;
+    box-shadow: 10px 10px 80px black;
 }
 
 .birdie {
+    padding: -30px 0px 0px 0px;
+    float: right;
+    display: inline;
     color: black;
-    z-index: 100000000000;
+    z-index: 11;
+    transition: 0.4s;
 }
 
-.Sempai {
-    position: fixed;
-    top: 50px;
-    max-height: 100%;
-    max-width: 100%;
-    margin-bottom: 0px;
-    z-index: 1;
-} 
+.birdie:hover {
+    transform: translate(0px, -40px) rotate(360deg) ; 
+}
 
-
-#ParagraphTitle {
+#ShowoffParagraph {
     font-size: 40;
     font-family: sans-serif;
     color: black;
@@ -112,17 +109,17 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
+    width: 90%
 }
 
-.paragraph1 h2 {
+.BreakingNews h2 {
     color: #7ce5ea;
     font-family: sans-serif
 }
 
-.paragraph1 {
-    left: 0px;
+.BreakingNews p {
     font-size: 20;
-    color: #e3ecf9; 
+    color: black; 
     text-align: center;
     font-family: sans-serif;
     position: relative;
@@ -146,7 +143,7 @@ body {
     top: -500px;
     padding-top: 20px;
     padding-bottom: 30px;
-    z-index: 10;
+    z-index: 12;
     cursor: pointer;
     box-shadow: 0px 0px 0px #27d800;
     width: 80%;
@@ -170,25 +167,7 @@ body {
     color: aliceblue;
 }
 
-.About-page {
-    align-content: center;
-    padding: 9px 0px 60px 0px;
-    color: black;
-    align-content: center;
-    text-align: center;
-    top: 1000px;
-    left: 100px;
-    transition: 0.4s;
-}
 
-.About-page:hover {
-    color: #7ce5ea;
-}
-
-.Home {
-    color: black;
-    top: 600px;
-}
     
 
 
