@@ -30,16 +30,13 @@ body {
 }
 
 .Title {
+    font-family: Audiowide;
     display: inline;
     color: black;
-    transition: 0.2s;
-}
-
-.Title:hover {
-    color: #7ce5ea;
 }
 
 .ml {
+    font-family: Alef;
     color: black;
     transition: 0.2s;
 }
@@ -50,8 +47,9 @@ body {
 }
 
 .Games {
+    font-family: Alef;
     color: black;
-    padding-left: 40px;
+    padding: 0px 10px 0px 40px;
 }
 
 .Games:hover {
@@ -63,8 +61,10 @@ body {
 }
 
 .MODS {
+    font-family: Alef;
     display: inline;
     color: black;
+    padding: 0px 10px 0px 10px;
 }
 
 .MODS:hover {
@@ -76,6 +76,7 @@ body {
 }
 
 .About {
+    font-family: Alef;
     display: inline;
     color: black;
 }
@@ -95,21 +96,20 @@ body {
     color: black;
     z-index: 11;
     transition: 0.4s;
+    transform: translate(0px, -40px)
 }
 
 .birdie:hover {
-    transform: translate(0px, -40px) rotate(360deg) ; 
+    transform: translate(0px, -80px) rotate(360deg) ; 
 }
 
 #ShowoffParagraph {
     font-size: 40;
-    font-family: sans-serif;
+    font-family: Alef;
     color: black;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    width: 90%
+    left: 35px;
+    width: 800px;
+    
 }
 
 .BreakingNews h2 {

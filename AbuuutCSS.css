@@ -23,7 +23,6 @@ body {
 
 .TopBar ul, li {
     top: 3px;
-    font-family: sans-serif;
     display: inline;
     padding-left: 20px;
     color: white;
@@ -33,15 +32,13 @@ body {
     display: inline;
     color: black;
     transition: 0.2s;
-}
-
-.Title:hover {
-    color: #7ce5ea;
+    font-family: Audiowide;
 }
 
 .ml {
     color: black;
     transition: 0.2s;
+    font-family: Alef;
 }
 
 .ml:hover {
@@ -53,6 +50,7 @@ body {
     color: black;
     padding-left: 20px;
     transition: 0.3s;
+    font-family: Alef;
     
 }
 
@@ -68,6 +66,7 @@ body {
     display: inline;
     color: black;
     transition: 0.3s;
+    font-family: Alef;
 }
 
 .MODS:hover {
@@ -96,6 +95,12 @@ body {
     color: black;
     z-index: 11;
     top: 300px;
+}
+
+.description {
+    color: black;
+    top: 600px;
+    
 }
 
 
