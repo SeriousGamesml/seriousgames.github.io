@@ -1,13 +1,12 @@
 body {
-  
     background-color: #001a42;
+    background: linear-gradient(to right, black -50%, #012660 50%, black 150%);
     margin: 0px;
     width: 100%;
     height: 100%;
 }
 
 .TopBar {
-   
     position: fixed;
     width: 100%;
     height: 3%;
@@ -17,10 +16,10 @@ body {
     box-shadow: 20px 20px 140px black;
     color: #ffbf00;
     z-index: 10; 
+    transition: 0.6s;
 }
 
 .TopBar ul, li {
-   
     top: 3px;
     font-family: sans-serif;
     display: inline;
@@ -29,15 +28,14 @@ body {
 }
 
 .Title {
-   
     font-family: Audiowide;
     font-size: 70px;
     display: inline;
     color: black;
+    text-decoration: none;
 }
 
 .ml {
-  
     font-size: 10;
     text-decoration: none;
     font-family: Alef;
@@ -46,31 +44,20 @@ body {
 }
 
 .ml:hover {
-   
     color: #7ce5ea;
     cursor: pointer;
 }
 
 .Games {
-  
-    text-decoration: none;
-    font-family: Alef;
-    color: black;
-    padding: 0px 10px 0px 40px;
-    transition: 0.2s;
-}
-
-.Games:hover {
-  
     color: #ffbf00;
     background-color: black;
     cursor: pointer;
     padding: 10px 40px 10px 40px;
     box-shadow: 10px 10px 80px black;
+    transition: 0.2s;
 }
 
 .MODS {
-   
     text-decoration: none;
     font-family: Alef;
     color: black;
@@ -79,7 +66,6 @@ body {
 }
 
 .MODS:hover {
-   
     color: #ffbf00;
     background-color: black;
     cursor: pointer;
@@ -88,7 +74,6 @@ body {
 }
 
 .About {
-   
     text-decoration: none;
     font-family: Alef;
     display: inline;
@@ -97,7 +82,6 @@ body {
 }
 
 .About:hover {
-  
     color: #ffbf00;
     background-color: black;
     cursor: pointer;
@@ -106,7 +90,6 @@ body {
 }
 
 .birdie {
-   
     padding: -30px 0px 0px 0px;
     float: right;
     display: inline;
@@ -118,76 +101,66 @@ body {
 }
 
 .birdie:hover {
-    
     transform: translate(0px, -80px);
     color: black;
 }
 
-#ShowoffParagraph {
-    
-    font-size: 40;
-    font-family: Alef;
-    color: black;
-    left: 105px;
-    width: 800px;
-}
-
-.MainButton {
-    padding-left: 75px;
-}
-
-.BreakingNews, h2 {
-    
-    display: inline;
-    color: #7ce5ea;
-    font-family: Days One;
-}
-
-.BreakingNews p {
-    
-    font-size: 20;
-    color: black; 
-    text-align: center;
-    font-family: sans-serif;
-    position: relative;
-    border-radius: 5px;
-    top: 750px;
+.GameSelection {
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #e3ecf9;
-    height: 500px;
-    width: 95%;
-    z-index: 9;
+    width: 80%;
 }
 
-.downloadthing{
-    
-    display: inline;
+.SecondGameEver {
     color: white;
-    background-color: #ffbf00;
-    box-shadow: 1px 1px 1px #d69200;
-    text-decoration: none;
-    text-align: center;
-    font-size: 24px;
-    position: relative;
-    border-style: solid;
-    border-color: #e5a000; 
-    border-width: 10px;
+    background-color: black;
+    border-color: white;
+    border-width: 10;
     border-radius: 10px;
-    padding: 20px 320px 20px 320px;
-    left: 200px;
-    z-index: 9;
-    cursor: pointer;
-    transition: 0.4s;
+    border-style: solid;
+    align-content: center;
+    text-align: center;
+    transform: translate(50px, 225px);
+    width: 600px;
+    padding-top: 350px;
+    padding-bottom: 15px;
+    z-index: 10;
+    float: left;
+    transition: 0.3s;
 }
 
-.downloadthing:hover {
-   
+.SecondGameEver:hover {
+    transform: translate(45px, 220px);
+    box-shadow: 7px 7px #7ce5ea;
     border-color: #7ce5ea;
-    background-color: #7ce5ea;
-    box-shadow: 5px 5px #7ce5ea;
+    border-width: 7px;
 }
+
+.FirstGameEver {
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    align-content: center;
+    text-align: center;
+    transform: translate(200px, -245px);
+    width: 600px;
+    padding-top: 350px;
+    padding-bottom: 15px;
+    z-index: 10;
+    float: right;
+    transition: 0.3s;
+}
+
+.FirstGameEver:hover {
+    transform: translate(207px, -252px);
+    box-shadow: -7px 7px #7ce5ea;
+    border-color: #7ce5ea;
+    border-width: 7px;
+}
+
+
 
