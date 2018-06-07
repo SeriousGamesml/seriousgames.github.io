@@ -52,7 +52,7 @@ body {
     color: #ffbf00;
     background-color: black;
     cursor: pointer;
-    padding: 10px 40px 10px 40px;
+    padding: 11px 40px 12px 40px;
     box-shadow: 10px 10px 80px black;
     transition: 0.2s;
 }
