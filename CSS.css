@@ -13,7 +13,7 @@ body {
     height: 3%;
     top: -5px;
     padding: 60px 0px 60px 0px;
-    background-color: white;
+    background-color: #2a2a2a;
     box-shadow: 20px 20px 140px black;
     color: #ffbf00;
     z-index: 10; 
@@ -33,7 +33,7 @@ body {
     font-family: Audiowide;
     font-size: 70px;
     display: inline;
-    color: black;
+    color: aqua;
 }
 
 .ml {
@@ -41,13 +41,13 @@ body {
     font-size: 10;
     text-decoration: none;
     font-family: Alef;
-    color: black;
+    color: aqua;
     transition: 0.2s;
 }
 
 .ml:hover {
    
-    color: #7ce5ea;
+    color: #ffbf00;
     cursor: pointer;
 }
 
@@ -55,7 +55,7 @@ body {
   
     text-decoration: none;
     font-family: Alef;
-    color: black;
+    color: aqua;
     padding: 0px 10px 0px 40px;
     transition: 0.2s;
 }
@@ -66,7 +66,7 @@ body {
     background-color: black;
     cursor: pointer;
     padding: 10px 40px 10px 40px;
-    box-shadow: 10px 10px 80px black;
+    box-shadow: 10px 10px 80px darkorange;
 }
 
 .MODS {
